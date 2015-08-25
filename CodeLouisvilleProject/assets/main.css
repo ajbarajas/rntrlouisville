@@ -1,0 +1,55 @@
+body {
+	background: lightgrey url('../img/apartment.jpg') no-repeat;
+	background-size: cover;
+	font-family: 'Josefin slab', serif;
+	color: hotpink;
+}
+
+.title {
+	margin-top: 350px;
+	font-size: 4rem;
+	padding-left: 40px;
+	
+	display: block;
+}
+
+.welcome {
+	font-size: .25em;
+}
+
+.links {
+	background-color: rgba(1,1,1,.5);
+	border-bottom: 100%;
+}
+
+.neighborhoods {
+	font-size: 3rem;
+	
+}
+
+footer ul {
+	list-style: none;
+	position: absolute;
+	height: 25px;
+	font-size: 1.35rem;
+	bottom: 0;
+	right: 40px;
+
+}
+
+footer ul li {
+	display: inline;
+	width: 200px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: hotpink;
+}
+
+a:hover {
+	color: white;
+}
