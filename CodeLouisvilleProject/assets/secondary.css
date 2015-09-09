@@ -1,0 +1,124 @@
+/** {
+	border-style: solid;
+	border-color: red;
+}*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Josefin slab', serif;
+	color: hotpink;
+	background-color: #F5FFFF 
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 15px
+}
+
+.neighborhoods {
+	background: url('../img/big4.jpg') no-repeat;
+	background-color: rgba(1,1,1,.5);
+	margin: 0;
+	height: 150px;
+	padding-top: 35px;
+}
+
+.content {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.highlands {
+	background: url('../img/highlands.jpg') no-repeat; 
+	height: 500px;
+	width: 800px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.germantown {
+	background: url('../img/germantown.jpg') no-repeat;
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.crescenthill {
+	background: url('../img/crescenthill.jpg') no-repeat;
+	height: 500px;
+	width: 500px;
+	float: left;
+	margin-top: 10px;
+}
+
+.oldlouisville {
+	background: url('../img/oldlouisville2.jpg') no-repeat;
+	height: 500px;
+	width: 800px;
+	float: right;
+	margin-top: 10px;
+}
+
+.downtown {
+	background: url('../img/downtown.jpg') no-repeat;
+	height: 500px;
+	width: 800px;
+	float: left;
+	margin-top: 10px;
+}
+
+.search {
+	background: url('../img/bridge.jpg') no-repeat;
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin-top: 10px;
+}
+
+
+footer ul {
+	list-style: none;
+	position: fixed;
+	height: 25px;
+	font-size: 1.35rem;
+	bottom: 0;
+	right: 40px;
+	background-color: rgba(1,1,1,.5);
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+footer ul li {
+	display: inline;
+	width: 200px;
+}
+
+.neighborhoods {
+	font-size: 3rem;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: hotpink;
+}
+
+a:hover {
+	color: white;
+}
