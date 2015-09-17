@@ -3,6 +3,7 @@
 	border-color: red;
 }*/
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -24,68 +25,84 @@ h2 {
 	padding-top: 15px
 }
 
+.content {
+	margin-left: 2.5%;
+	width: 95%;
+	box-sizing: border-box;
+}
+
 .neighborhoods {
 	background: url('../img/big4.jpg') no-repeat;
-	background-color: rgba(1,1,1,.5);
+	background-color: rgba(149,165,166,1.0);
+	font-size: 3rem;
+	text-align: center;
 	margin: 0;
 	height: 150px;
 	padding-top: 35px;
 }
 
-.content {
-	margin-left: 15px;
-	margin-right: 15px;
+.nh_row {
+	
+
+	min-height: 200px;
+	max-height: 500px;
+}
+
+div[class^="nh_image"] {
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	margin-top: 20px;
+	display: block;
+	float: left;
+	
+}
+
+.nh_image_landscape {
+	width: 60%;
+}
+
+.nh_image_portrait {
+	width: 40%;
 }
 
 .highlands {
-	background: url('../img/highlands.jpg') no-repeat; 
-	height: 500px;
-	width: 800px;
-	float: left;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	background: url('../img/highlands.jpg') no-repeat;
+	background-size: 98%; 
 }
 
 .germantown {
 	background: url('../img/germantown.jpg') no-repeat;
-	height: 500px;
-	width: 500px;
-	float: right;
-	margin-top: 20px;
-	margin-bottom: 10px;
 }
 
 .crescenthill {
 	background: url('../img/crescenthill.jpg') no-repeat;
-	height: 500px;
-	width: 500px;
-	float: left;
-	margin-top: 10px;
 }
 
 .oldlouisville {
 	background: url('../img/oldlouisville2.jpg') no-repeat;
-	height: 500px;
-	width: 800px;
-	float: right;
-	margin-top: 10px;
 }
 
 .downtown {
 	background: url('../img/downtown.jpg') no-repeat;
-	height: 500px;
-	width: 800px;
-	float: left;
-	margin-top: 10px;
+	background-size: 98%;
 }
 
 .search {
 	background: url('../img/bridge.jpg') no-repeat;
-	height: 500px;
-	width: 500px;
-	float: right;
-	margin-top: 10px;
 }
+
+.pages {
+	text-align: center;
+	background-color: rgba(149, 165, 166,1.0);
+	font-size: 3rem;
+	text-align: center;
+	margin: 0;
+	height: 150px;
+	padding-top: 35px;
+}
+
+
 
 
 footer ul {
@@ -106,11 +123,6 @@ footer ul li {
 	width: 200px;
 }
 
-.neighborhoods {
-	font-size: 3rem;
-	text-align: center;
-}
-
 a:link {
 	text-decoration: none;
 }
@@ -121,4 +133,10 @@ a:visited{
 
 a:hover {
 	color: white;
+}
+
+img {
+	margin: 30px;
+	height: 300px;
+	width: 225px;
 }
