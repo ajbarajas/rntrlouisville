@@ -55,6 +55,11 @@ div[class^="nh_image"] {
 	margin-top: 20px;
 	display: block;
 	float: left;
+	background-origin: content-box;
+	padding-right: 10px;
+	background-size: cover;
+	box-sizing:border-box;
+	background-clip: content-box;
 	
 }
 
@@ -68,7 +73,7 @@ div[class^="nh_image"] {
 
 .highlands {
 	background: url('../img/highlands.jpg') no-repeat;
-	background-size: 98%; 
+	/*background-size: 98%;*/ 
 }
 
 .germantown {
@@ -85,7 +90,7 @@ div[class^="nh_image"] {
 
 .downtown {
 	background: url('../img/downtown.jpg') no-repeat;
-	background-size: 98%;
+	/*background-size: 98%;*/
 }
 
 .search {
