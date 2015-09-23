@@ -1,0 +1,40 @@
+@media screen and (max-width: 750px) {
+
+	#primary {
+		width: 80%;
+		float: left;
+	}
+
+	.neighborhoods {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.nh_image_landscape {
+		width: 100%;
+	}
+
+	.nh_image_portrait {
+		width: 100%;
+	}	
+	
+}
+
+@media screen and (max-width: 1330px) {
+
+		.form-wrapper {
+		width: 50%;
+	}
+
+	.form-wrapper input {
+		width: 45%;
+	}
+
+	.form-wrapper button {
+		width: 50%;
+	}
+
+}

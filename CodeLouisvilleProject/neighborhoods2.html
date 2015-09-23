@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:700|Josefin+Slab' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="assets/secondary.css">
+  <link rel="stylesheet" href="assets/responsive.css">
   <title>RNTR | welcome home </title>
 </head>
 <header>
@@ -15,25 +16,25 @@
 <body>
 	<div class="content">
 		<div class="nh_row">
-			<div class="nh_image_landscape highlands">
+			<div class="nh_image_landscape highlands primary">
 				<a href="highlands.html"><h2>Highlands</h2></a>
 			</div>
-			<div class="nh_image_portrait germantown my_floatRight">
+			<div class="nh_image_portrait germantown my_floatRight secondary" id="primary">
 				<a href="germantown.html"><h2>Germantown</h2></a>
 			</div>
 		</div>
-		<div class="nh_image_portrait crescenthill">
+		<div class="nh_image_portrait crescenthill primary">
 			<a href="crescenthill.html"><h2 >Crescent</h2>
 			<h2>Hill</h2></a>
 		</div>
-		<div class="nh_image_landscape oldlouisville my_floatRight">
+		<div class="nh_image_landscape oldlouisville my_floatRight secondary" id="primary">
 			<a href="oldlouisville.html"><h2 >Old</h2>
 			<h2>Louisville</h2></a>
 		</div>
-		<div class="nh_image_landscape downtown">
+		<div class="nh_image_landscape downtown primary">
 			<a href="downtown.html"><h2 >Downtown</h2></a>
 		</div>
-		<div class="nh_image_portrait search my_floatRight">
+		<div class="nh_image_portrait search my_floatRight secondary" id="primary">
 			<form class="form-wrapper cf">
 				<input name="textfield" type="text" id="textfield" placeholder="Enter an Address, Zip or Neighborhood..."  onEnter="updateTxt('textfield')">
 				<button type="submit" name="button" id="send" value="Send" onClick="updateTxt('textfield')">Search</button>
