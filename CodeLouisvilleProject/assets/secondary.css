@@ -118,8 +118,37 @@ div[class^="nh_image"] {
 	padding-left: 10px;
 }
 
+.address {
+    text-align: left;
 
+}
 
+.hepburn {
+    float: right;
+    margin-right: 150px;
+    margin-top: 40px;
+    color: #696969;
+}
+
+.picture {
+    margin-left: 200px;
+}
+
+.renter {
+    background-color: #696969;
+    color: lightgrey;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
 
 footer ul {
 	list-style: none;
@@ -127,7 +156,7 @@ footer ul {
 	height: 25px;
 	font-size: 1.35rem;
 	bottom: 0;
-	right: 40px;
+	right: 55px;
 	background-color: rgba(1,1,1,.5);
 	padding-left: 10px;
 	padding-right: 10px;
@@ -251,7 +280,7 @@ a {
     }   
       
     .form-wrapper button:hover{		
-        background: #e54040;
+        background: #45A4AF;
     }	
       
     .form-wrapper button:active,
@@ -270,7 +299,7 @@ a {
     }
     
     .form-wrapper button:hover:before{
-        border-right-color: #e54040;
+        border-right-color: #45A4AF;
     }
     
     .form-wrapper button:focus:before{
