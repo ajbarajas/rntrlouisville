@@ -93,7 +93,6 @@ div[class^="nh_image"] {
 
 .downtown {
 	background: url('../img/downtown.jpg') no-repeat;
-	/*background-size: 98%;*/
 }
 
 .search {
@@ -102,7 +101,7 @@ div[class^="nh_image"] {
 
 .pages {
 	text-align: center;
-	background-color: rgba(149, 165, 166,1.0);
+	background-color: #696969;
 	font-size: 3rem;
 	text-align: center;
 	margin: 0;
@@ -123,9 +122,9 @@ div[class^="nh_image"] {
 
 }
 
-.hepburn {
+.address_header {
     float: right;
-    margin-right: 150px;
+    margin-right: 200px;
     margin-top: 40px;
     color: #696969;
 }
